@@ -1,0 +1,30 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "ADFMaruti"
+		},
+		"LS_Database_password": {
+			"value": ""
+		},
+		"LS_datalake_accountKey": {
+			"value": ""
+		},
+		"LS_Database_properties_typeProperties_server": {
+			"value": "marutipro.database.windows.net"
+		},
+		"LS_Database_properties_typeProperties_database": {
+			"value": "marutipro"
+		},
+		"LS_Database_properties_typeProperties_userName": {
+			"value": "marutipro"
+		},
+		"LS_RestAPI_properties_typeProperties_url": {
+			"value": "https://pokeapi.co/api/v2/pokemon"
+		},
+		"LS_datalake_properties_typeProperties_url": {
+			"value": "https://adlsmaruti.dfs.core.windows.net/"
+		}
+	}
+}
