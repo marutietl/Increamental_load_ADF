@@ -1,0 +1,9 @@
+{
+	"name": "ADFMaruti",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "2df9d3d5-991a-47d0-9101-602ab0b52926",
+		"tenantId": "3b535624-52d7-4ff2-82fb-761d9e09fd0e"
+	}
+}

@@ -1,0 +1,17 @@
+{
+	"name": "LS_Database",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "AzureSqlDatabase",
+		"typeProperties": {
+			"server": "marutipro.database.windows.net",
+			"database": "marutipro",
+			"encrypt": "optional",
+			"trustServerCertificate": false,
+			"authenticationType": "SQL",
+			"userName": "marutipro",
+			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkRBVEFGQUNUT1JZQDIzQzZGRTZGLTJDQjktNEQwOC1BNEJELTEwNTA4MEFCQkU1Ml82NjBlNjhkOC04MDA4LTRhYzItYTY3Mi1iZmUxNmMwNDFkMTEiDQp9"
+		}
+	}
+}

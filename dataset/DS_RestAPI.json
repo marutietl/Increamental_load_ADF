@@ -1,0 +1,19 @@
+{
+	"name": "DS_RestAPI",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "LS_RestAPI",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "RestResource",
+		"typeProperties": {
+			"relativeUrl": {
+				"value": "?offset={offset}",
+				"type": "Expression"
+			}
+		},
+		"schema": []
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
